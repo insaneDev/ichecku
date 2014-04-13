@@ -1,0 +1,10 @@
+doctype html
+html
+	head
+		link(href="ickecku.css", rel="stylesheet", type="text/css")
+		script(src="http://code.jquery.com/jquery-latest.min.js")
+		script(src="ichecku.js")
+		script
+			$(document).ready(function(){$('[rel="ichecku"]').ichecku();});
+	body
+		input(type="checkbox", name="check1", rel="ichecku")
